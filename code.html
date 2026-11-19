@@ -1,0 +1,944 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#d9e3f6","on-primary-fixed":"#370e00","tertiary-fixed-dim":"#bdc7d9","secondary-fixed-dim":"#ffb4ab","inverse-on-surface":"#edf0ff","outline":"#8e7166","on-primary-container":"#fffbff","surface":"#f9f9ff","error":"#ba1a1a","surface-container-high":"#e1e8fd","on-secondary-fixed-variant":"#93000b","surface-container-lowest":"#ffffff","secondary":"#bb0112","tertiary-container":"#6b7586","on-primary":"#ffffff","primary":"#a33900","surface-bright":"#f9f9ff","error-container":"#ffdad6","on-background":"#141b2b","outline-variant":"#e2bfb2","surface-dim":"#d3daef","surface-container-highest":"#dce2f7","tertiary":"#525d6c","on-secondary-fixed":"#410002","on-tertiary":"#ffffff","on-tertiary-fixed":"#121c2a","on-error":"#ffffff","on-secondary-container":"#fffbff","primary-fixed-dim":"#ffb599","surface-container-low":"#f1f3ff","surface-tint":"#a73a00","on-surface":"#141b2b","on-tertiary-fixed-variant":"#3d4756","on-tertiary-container":"#fdfcff","on-primary-fixed-variant":"#7f2b00","secondary-fixed":"#ffdad6","primary-fixed":"#ffdbce","inverse-surface":"#293040","surface-variant":"#dce2f7","inverse-primary":"#ffb599","on-surface-variant":"#5a4138","primary-container":"#cc4900","surface-container":"#e9edff","on-error-container":"#93000a","background":"#f9f9ff","secondary-container":"#e02928","on-secondary":"#ffffff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter":"1.5rem","margin":"2rem","margin-mobile":"1rem","space-xl":"2.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-md":"1rem","space-lg":"1.5rem","gutter-mobile":"1rem"},"fontFamily":{"body-md":["Manrope"],"display":["Manrope"],"headline-lg":["Manrope"],"body-sm":["Manrope"],"headline-sm":["Manrope"],"body-lg":["Manrope"],"headline-lg-mobile":["Manrope"],"display-mobile":["Manrope"],"headline-md":["Manrope"],"label-md":["Manrope"],"label-sm":["Manrope"],"label-lg":["Manrope"]},"fontSize":{"body-md":["1rem",{"lineHeight":"1.5rem","letterSpacing":"0em","fontWeight":"400"}],"display":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-lg":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"400"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"display-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"800"}],"headline-md":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"700"}],"label-lg":["1rem",{"lineHeight":"1.5rem","letterSpacing":"0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logotipo Talleres Samuel" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCVZNow3U7i6-IN5a5rvuuljq7QRP4wJjE_3qZVOnk0pRBjic1KgfZMOEHLTB1FxfLos-_qjop-s_6TawTNvcGWsG7zJtoRMqpvFrfv6eGs62RcOZ8-pSr0jZL8NjWlPTNnpm-dSYpmCRDa4JFdedz5ceMZ5xlM6npK9OiYzfu2_mG_CmokekR1LY9Z0ahm53TkZ1IA6AiGHRY7nctV0MeBo4BesK3JACkeMSnpJZAG"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface leading-tight tracking-tight">Talleres Samuel</span><span class="hidden lg:inline text-label-sm font-label-sm text-primary">30 Años en el Actur · Zaragoza</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors text-primary font-bold" data-path="inicio" href="#servicios">Servicios</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="como-funciona" href="#como-funciona">Cómo funciona</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="presupuesto" href="#presupuesto">Presupuesto</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="opiniones" href="#opiniones">Opiniones</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contacto" href="#contacto">Contacto</a></nav><div class="flex items-center gap-space-md"><div class="hidden md:flex flex-col text-right"><span class="font-label-sm text-label-sm text-on-surface-variant">Horario Taller</span><span class="font-label-md text-label-md text-on-surface font-semibold">Lun-Vie: 9:00-13:00 / 16:00-20:00</span></div><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm bg-primary text-on-primary font-label-md text-label-md rounded-xl shadow-sm hover:bg-primary-container transition-all text-center" href="tel:976512852">Llamar al 976 51 28 52</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 pb-20 md:pb-0 bg-surface"><div class="flex flex-col w-full">
+<!-- ================= 1. HERO SECTION ================= -->
+<section class="relative w-full overflow-hidden bg-inverse-surface -mt-20 pt-28 pb-16 md:pt-36 md:pb-24">
+<!-- Background Image with Scrim -->
+<div class="absolute inset-0 z-0">
+<img alt="Instalaciones mecánicas modernas de Talleres Samuel en el Actur Zaragoza" class="w-full h-full object-cover object-center opacity-30 transform scale-105 filter saturate-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1ybfATTbpEIM-vEzDa4ttl_oZXL_5Ea3JmircB_ViRM8Kww-HtTzjFotvCPFen30chFr7OD2Lifo_Qucx45TzeNj6yBT2WXGJCcnXkid3flFyHpnTK1YV5k1EvtRAbkZVGeZDLbILeSij1egJSiKiJUeouE2fVxnmn5Kbv3rd2bbd1v81R3tNliL0XHhRx-wHU5VbQd0BfwlObjh7ydcVxcto8wsZmQWAP_eqyvw">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface via-inverse-surface/85 to-inverse-surface/75"></div>
+</div>
+<div class="relative z-10 max-w-[1280px] mx-auto px-margin-mobile md:px-margin">
+<div class="max-w-3xl space-y-space-md">
+<!-- Live Status & Neighborhood Badge -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-lowest/10 backdrop-blur-md text-surface font-label-sm text-label-sm border-0 shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Abierto hoy (L-V 9:00-13:00 y 16:00-20:00)
+          </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/20 text-primary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            Actur - Rey Fernando · Zaragoza
+          </span>
+</div>
+<!-- H1 -->
+<h1 class="font-display text-display-mobile md:text-display text-inverse-on-surface leading-[1.1] tracking-tight">
+          Tu taller de confianza en Zaragoza desde hace <span class="text-primary-fixed underline decoration-primary-container decoration-4 underline-offset-8">más de 30 años</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-tertiary-fixed leading-relaxed">
+          Mecánica general, inyección, chapa y pintura y pre-ITV con presupuesto claro y sin sorpresas. Tu taller mecánico en el Actur con atención honesta, profesional y de barrio.
+        </p>
+<!-- CTA Buttons -->
+<div class="pt-space-sm flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-4 bg-primary text-on-primary rounded-xl font-label-lg text-label-lg shadow-lg hover:bg-primary-container active:scale-[0.98] transition-all text-center" href="tel:976512852">
+<span class="material-symbols-outlined text-[22px]">phone_in_talk</span>
+<span>Llamar ahora: 976 51 28 52</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-4 bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-surface rounded-xl font-label-lg text-label-lg backdrop-blur-sm transition-all text-center" href="#presupuesto">
+<span class="material-symbols-outlined text-[20px]">request_quote</span>
+<span>Pedir presupuesto online</span>
+</a>
+</div>
+<!-- Google Reviews Proof -->
+<div class="pt-space-md flex flex-wrap items-center gap-4">
+<div class="flex items-center gap-1 text-amber-400">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">star_half</span>
+</div>
+<div class="flex items-center gap-2 text-surface font-body-sm text-body-sm">
+<span class="font-bold text-surface text-label-md">4,6 / 5</span>
+<span class="text-tertiary-fixed-dim">·</span>
+<span class="text-tertiary-fixed underline underline-offset-2">73 reseñas verificadas en Google Reviews</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 2. BARRA DE CONFIANZA ================= -->
+<section class="w-full bg-surface-container-low shadow-sm">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin py-space-md md:py-space-lg">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed text-[26px]">history_toggle_off</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">+30 Años</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">de experiencia en Zaragoza</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed text-[26px]">price_check</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Presupuesto Cerrado</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sin compromiso ni sorpresas</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed text-[26px]">precision_manufacturing</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Mecánica y Chapa</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">En un solo taller del Actur</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary-fixed text-[26px]">minor_crash</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Multimarca y 4x4</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Especialistas en clásicos</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 3. SERVICIOS ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface" id="servicios">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="max-w-2xl space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Taller integral multimarca</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+          Qué podemos hacer por tu coche
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Desde un mantenimiento rutinario hasta diagnósticos complejos y carrocería completa. Todo bajo la garantía de un equipo experto en Zaragoza.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">tune</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mecánica general y mantenimiento</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Revisiones oficiales, correas de distribución, embragues, frenos y amortiguadores con recambios de primeras marcas homologadas.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Inyección gasolina y diésel</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Diagnóstico electrónico avanzado, comprobación, limpieza y calibración de inyectores, sistemas common rail y bombas de alta presión.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">format_paint</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Chapa y pintura al horno</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Reparación de golpes, arañazos, bancada estructural y cabina de secado al horno con igualación cromática digital y acabado de fábrica.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">ac_unit</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Aire acondicionado y clima</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Carga y reciclaje de gas R134a y R1234yf ecológico, detección de microfugas por contraste UV y desinfección higiénica de conductos.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">tire_repair</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Neumáticos y alineación</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Montaje, equilibrado dinámico y paralelo láser. Catálogo con las marcas punteras (Michelin, Bridgestone, Continental) al mejor precio.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">electrical_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Instalación de accesorios</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Instalación de enganches de remolque, pantallas multimedia Android/CarPlay, sensores de aparcamiento y mejoras eléctricas homologadas.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">terrain</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Especialistas 4x4 y clásicos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tracción integral, cajas transfer, amortiguación reforzada, bloqueos y restauración meticulosa de motores clásicos e históricos.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 8 -->
+<div class="flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">assignment_turned_in</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Pre-ITV y gestión de ITV</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Chequeo integral en 40 puntos críticos y, si prefieres ahorrar tiempo, nosotros mismos trasladamos tu vehículo a pasar la ITV por ti.
+            </p>
+</div>
+<div class="pt-space-md">
+<a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container" href="#presupuesto">
+              Pedir presupuesto <span class="material-symbols-outlined text-[18px] ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 4. CÓMO FUNCIONA ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface-container-low" id="como-funciona">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Proceso 100% transparente</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+          Así de fácil reparamos tu vehículo
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Sin tecnicismos innecesarios ni cargos no acordados. Solo tres pasos sencillos para volver a la carretera.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg relative">
+<!-- Step 1 -->
+<div class="relative p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">
+              1
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Nos llamas o nos cuentas tu avería</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Explícanos el síntoma o la revisión que necesitas por teléfono (<a class="text-primary font-bold" href="tel:976512852">976 51 28 52</a>) o a través de nuestro formulario en menos de un minuto.
+            </p>
+</div>
+<div class="pt-space-md text-primary font-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">phone_enabled</span>
+            Atención directa de taller
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="relative p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">
+              2
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Presupuesto cerrado y sin sorpresas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Recepcionamos tu coche en el Actur, diagnosticamos con precisión y te entregamos una propuesta por escrito antes de tocar un solo tornillo.
+            </p>
+</div>
+<div class="pt-space-md text-primary font-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+            Aprobación previa garantizada
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="relative p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="space-y-space-sm">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary font-headline-sm text-headline-sm flex items-center justify-center font-bold">
+              3
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Reparamos y te avisamos puntualmente</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Mecánicos con 30 años de oficio sustituyen las piezas desgastadas con garantía. Te contactamos en cuanto tu coche esté limpio y verificado.
+            </p>
+</div>
+<div class="pt-space-md text-primary font-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+            Garantía por escrito
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 5. FORMULARIO DE PRESUPUESTO INTERACTIVO ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface" id="presupuesto">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left: Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg md:p-space-xl rounded-xl shadow-md space-y-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Sin compromiso</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-md text-on-surface">
+              Pide tu presupuesto online
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+              Rellena los datos de tu coche y te responderemos en el mismo día laboral con una valoración detallada.
+            </p>
+</div>
+<form class="space-y-space-md" id="quoteForm" onsubmit="event.preventDefault(); showFormSuccess();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="name">Nombre y Apellidos *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="name" placeholder="Ej: Javier García" required="" type="text">
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="phone">Teléfono de contacto *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="phone" placeholder="Ej: 600 000 000" required="" type="tel">
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="car">Matrícula o Modelo *</label>
+<input class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="car" placeholder="Ej: Seat León 2019 / 1234-LMN" required="" type="text">
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="service">Servicio requerido *</label>
+<select class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="service" required="">
+<option value="mantenimiento">Mecánica general / Mantenimiento</option>
+<option value="chapa">Chapa y pintura</option>
+<option value="itv">Revisión Pre-ITV / Pasar ITV</option>
+<option value="inyeccion">Inyección / Diagnosis de motor</option>
+<option value="clima">Aire acondicionado y climatización</option>
+<option value="neumaticos">Neumáticos y alineación</option>
+<option value="4x4">Especialistas 4x4 o Clásico</option>
+<option value="otro">Otro tipo de avería</option>
+</select>
+</div>
+</div>
+<div class="space-y-1">
+<label class="font-label-md text-label-md text-on-surface" for="message">Detalles del problema o consulta (opcional)</label>
+<textarea class="w-full px-4 py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="message" placeholder="Describe ruidos, luces encendidas en cuadro o qué intervención deseas realizar..." rows="3"></textarea>
+</div>
+<div class="flex items-start gap-space-xs pt-1">
+<input class="mt-1 w-4 h-4 rounded text-primary focus:ring-primary" id="privacy" required="" type="checkbox">
+<label class="font-body-sm text-body-sm text-on-surface-variant" for="privacy">
+                He leído y acepto la política de privacidad y el tratamiento de mis datos para contactar conmigo acerca de mi solicitud.
+              </label>
+</div>
+<button class="w-full py-4 bg-primary text-on-primary font-label-lg text-label-lg rounded-xl shadow-md hover:bg-primary-container active:scale-[0.99] transition-all flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+              Solicitar presupuesto gratis
+            </button>
+<div class="hidden p-4 rounded-xl bg-emerald-50 text-emerald-800 font-body-sm text-body-sm flex items-center gap-2" id="formFeedback">
+<span class="material-symbols-outlined text-emerald-600">check_circle</span>
+              ¡Solicitud enviada con éxito! Te llamaremos al teléfono facilitado en menos de 2 horas laborables.
+            </div>
+</form>
+</div>
+<!-- Right: Fast Contact Card -->
+<div class="lg:col-span-5 space-y-space-md">
+<div class="p-space-lg rounded-xl bg-inverse-surface text-inverse-on-surface shadow-md space-y-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+              ¿Urgencia mecánica?
+            </span>
+<h3 class="font-headline-sm text-headline-sm">Llámanos directamente</h3>
+<p class="font-body-md text-body-md text-tertiary-fixed">
+              Si tu vehículo está inmovilizado o necesitas atención hoy mismo en el Actur, es más rápido llamarnos al teléfono fijo del taller.
+            </p>
+<a class="inline-flex items-center justify-center gap-3 w-full py-4 bg-primary text-on-primary rounded-xl font-headline-sm text-headline-sm hover:bg-primary-container transition-all text-center" href="tel:976512852">
+<span class="material-symbols-outlined text-[26px]">call</span>
+              976 51 28 52
+            </a>
+<div class="pt-space-xs space-y-2 font-body-sm text-body-sm text-tertiary-fixed">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">schedule</span>
+<span>Lunes a Viernes: 9:00 - 13:00 y 16:00 - 20:00</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">location_on</span>
+<span>C. Juan Blas de Ubide, 5, 50015 Zaragoza</span>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-high space-y-space-xs">
+<h4 class="font-label-lg text-label-lg text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">format_image_left</span>
+              Compromiso de Honestidad Samuel
+            </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Guardamos las piezas viejas sustituidas para mostrártelas y darte la total certeza de que el cambio era imprescindible.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 6. POR QUÉ ELEGIRNOS ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left: Image -->
+<div class="lg:col-span-5 relative">
+<div class="rounded-xl overflow-hidden shadow-xl relative aspect-[4/5] bg-surface-container">
+<img alt="Mecánico experimentado de Talleres Samuel en Zaragoza con llave inglesa" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnazu124tJNXDVrueBxH4W-wzuizIrf1m_JlI9WDCPnNNUaPBZidXGhiw9TKjKbTiZtl7X3u1xesC9ySVraZZgKfc9Yb3aonBjpLvUZOezuaB7njXnWnAIG3NL6w2SUf1AiZu0ZZD8xqgTpPtQv61vPCI_3pw7qLiNfmQ-n-j4xLhie7N5-hqI3jeGNzNaXE5vFJAOdwlWHoJJUWotCTCXTFzbBqDJism2ScqW8eM">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 p-space-md rounded-xl bg-surface-container-lowest/90 backdrop-blur-md shadow-lg">
+<p class="font-headline-sm text-headline-sm text-on-surface font-bold">Samuel y su equipo técnico</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Vocación mecánica, rigor técnico y trato humano desde hace más de 30 años en el Actur.</p>
+</div>
+</div>
+</div>
+<!-- Right: 4 Value Props -->
+<div class="lg:col-span-7 space-y-space-lg">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Valores del taller</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+              Por qué conductores de toda Zaragoza confían en nosotros
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+              No somos una franquicia despersonalizada. Somos un taller mecánico con nombre propio donde te atiende el mismo profesional que abrirá el capó de tu coche.
+            </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm space-y-2">
+<span class="material-symbols-outlined text-primary text-[28px]">military_tech</span>
+<h3 class="font-label-lg text-label-lg text-on-surface">Más de 30 años de experiencia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Tres décadas atendiendo a familias enteras de Zaragoza con total solvencia técnica y diagnósticos certeros.
+              </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm space-y-2">
+<span class="material-symbols-outlined text-primary text-[28px]">handshake</span>
+<h3 class="font-label-lg text-label-lg text-on-surface">Trato directo y honesto</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Hablas cara a cara con el mecánico asignado a tu coche. Sin intermediarios, sin comerciales ni costes inflados.
+              </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm space-y-2">
+<span class="material-symbols-outlined text-primary text-[28px]">car_repair</span>
+<h3 class="font-label-lg text-label-lg text-on-surface">Mecánica y carrocería en un sitio</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Solucionamos averías de motor y desperfectos de chapa bajo el mismo techo, ahorrándote tiempo y desplazamientos.
+              </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm space-y-2">
+<span class="material-symbols-outlined text-primary text-[28px]">rv_hookup</span>
+<h3 class="font-label-lg text-label-lg text-on-surface">Especialistas en 4x4 y clásicos</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Pasión, manuales técnicos y utillaje específico para vehículos todoterreno, transmisiones complejas y coches de época.
+              </p>
+</div>
+</div>
+<div class="pt-space-xs">
+<a class="inline-flex items-center gap-2 px-space-md py-3 bg-inverse-surface text-inverse-on-surface rounded-xl font-label-md text-label-md hover:bg-black transition-all" href="tel:976512852">
+<span class="material-symbols-outlined text-[18px]">call</span>
+              Hablar directamente con el taller al 976 51 28 52
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 7. OPINIONES DE CLIENTES ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface" id="opiniones">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="max-w-2xl space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Testimonios reales</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+            Lo que dicen nuestros clientes en Zaragoza
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Nuestra mejor carta de presentación es la fidelidad de nuestros vecinos del Actur tras más de tres décadas de trabajo bien hecho.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 px-space-md py-3 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-colors shrink-0" href="https://maps.google.com/?q=C.+Juan+Blas+de+Ubide+5,+Zaragoza" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-amber-500 text-[20px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+          Ver las 73 opiniones en Google (4.6★)
+        </a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Review 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-1 text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic"><span style="color: rgb(31, 31, 31); font-family: &quot;Google Sans Text&quot;, &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-style: normal; letter-spacing: 0.1px; white-space: pre-wrap;">Excelente servicio y atención. La relación calidad-precio es un aspecto a destacar del taller. Pero la estupenda mano de obra, rapidez y eficacia, hacen que este local destaque muy por encima de otros. Yo llevé mi vehículo por un golpe considerable en la aleta derecha que se había llevado gran parte de la chapa, y en 4 días tenían el coche listo (en otros sitios podría haber sido de 7 a 9 días perfectamente). En resumen, taller más que recomendable!!!</span></p>
+</div>
+<div class="flex items-center gap-3 pt-space-xs border-t-0">
+<div class="w-9 h-9 rounded-full bg-primary-fixed text-primary font-bold flex items-center justify-center font-label-md">ES</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Estefanía Sanchez</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Zaragoza</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-1 text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic"><span style="color: rgb(31, 31, 31); font-family: &quot;Google Sans Text&quot;, &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-style: normal; letter-spacing: 0.1px; white-space: pre-wrap;">Excelente trabajo  profesional y correcto ✔️  recomendable  100% el Iván se lo curra a tope</span></p>
+</div>
+<div class="flex items-center gap-3 pt-space-xs">
+<div class="w-9 h-9 rounded-full bg-primary-fixed text-primary font-bold flex items-center justify-center font-label-md">
+              CA</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Catalin Anghel</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Actur (Zaragoza)</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-1 text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic"><span style="color: rgb(31, 31, 31); font-family: &quot;Google Sans Text&quot;, &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-style: normal; letter-spacing: 0.1px; white-space: pre-wrap;">!!!!!! EXCELENTE!!!!!  estamos muy contentos con este  taller ,por fin hemos encontrado un taller de confianza ,con  personas honestas,al mecanico le damos un 10,por su  profesionalidad ,honestidad y calidad humana  ademas de lo economico que es , ponemos nues tro granito de arena con esta reseña para  ayudar a que otras personas puedan  encontrar   un taller con gente honesta ,seria y ,economicos .ya que nosotros habiamos ttenido muy malas experiencias con otros talleres .asi que lo RECOMENDAMOS COMPLETAMENTE.</span></p>
+</div>
+<div class="flex items-center gap-3 pt-space-xs">
+<div class="w-9 h-9 rounded-full bg-primary-fixed text-primary font-bold flex items-center justify-center font-label-md">MP</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Maryposa Pérez</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Clienta orgullosa</p>
+</div>
+</div>
+</div>
+<!-- Review 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-1 text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic"><span style="color: rgb(31, 31, 31); font-family: &quot;Google Sans Text&quot;, &quot;Google Sans&quot;, Roboto, Arial, sans-serif; font-style: normal; letter-spacing: 0.1px; white-space: pre-wrap;">He estado varias veces y todas me lo ha solucionado con rapidez y eficacia.</span></p>
+</div>
+<div class="flex items-center gap-3 pt-space-xs">
+<div class="w-9 h-9 rounded-full bg-primary-fixed text-primary font-bold flex items-center justify-center font-label-md">
+              JA</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Juanjo Andrés</p>
+<p class="font-body-sm text-[12px] text-on-surface-variant">Zaragoza · Cliente recurrente</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 8. OFERTAS Y PACKS DE TALLER ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="max-w-2xl space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Precios transparentes</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+          Packs de mantenimiento y promociones
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Tarifas claras desde el primer instante. Sin letra pequeña ni recargos ocultos al recoger tu coche.
+        </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Pack 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Mantenimiento Esencial</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cambio Aceite y Filtro</h3>
+<div class="py-2">
+<span class="text-body-sm text-on-surface-variant">Desde</span>
+<div class="font-display text-[2.5rem] leading-none font-bold text-on-surface">69 €</div>
+</div>
+<ul class="space-y-2 pt-2 text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Aceite sintético homologado
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Filtro de aceite nuevo
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Chequeo de 25 puntos de seguridad
+              </li>
+</ul>
+</div>
+<a class="w-full py-3 bg-primary text-on-primary font-label-md text-label-md rounded-xl text-center hover:bg-primary-container transition-all" href="#presupuesto">
+            Pedir cita para esta oferta
+          </a>
+</div>
+<!-- Pack 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Tranquilidad Total</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Revisión Pre-ITV Completa</h3>
+<div class="py-2">
+<span class="text-body-sm text-on-surface-variant">Desde</span>
+<div class="font-display text-[2.5rem] leading-none font-bold text-on-surface">45 €</div>
+</div>
+<ul class="space-y-2 pt-2 text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Prueba en frenómetro
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Comprobación de holguras y rótulas
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Análisis de emisiones y luces
+              </li>
+</ul>
+</div>
+<a class="w-full py-3 bg-primary text-on-primary font-label-md text-label-md rounded-xl text-center hover:bg-primary-container transition-all" href="#presupuesto">
+            Pedir cita para esta oferta
+          </a>
+</div>
+<!-- Pack 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Climatización</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Carga y Desinfección Clima</h3>
+<div class="py-2">
+<span class="text-body-sm text-on-surface-variant">Desde</span>
+<div class="font-display text-[2.5rem] leading-none font-bold text-on-surface">59 €</div>
+</div>
+<ul class="space-y-2 pt-2 text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Recarga de gas refrigerante
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Detección electrónica de fugas
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Desinfección de conductos
+              </li>
+</ul>
+</div>
+<a class="w-full py-3 bg-primary text-on-primary font-label-md text-label-md rounded-xl text-center hover:bg-primary-container transition-all" href="#presupuesto">
+            Pedir cita para esta oferta
+          </a>
+</div>
+<!-- Pack 4 -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Revisión Exhaustiva</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Revisión Completa Integral</h3>
+<div class="py-2">
+<span class="text-body-sm text-on-surface-variant">Desde</span>
+<div class="font-display text-[2.5rem] leading-none font-bold text-on-surface">129 €</div>
+</div>
+<ul class="space-y-2 pt-2 text-body-sm font-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Aceite homologado + 4 filtros
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Diagnosis electrónica completa
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check</span>
+                Inspección de 45 puntos de seguridad
+              </li>
+</ul>
+</div>
+<a class="w-full py-3 bg-primary text-on-primary font-label-md text-label-md rounded-xl text-center hover:bg-primary-container transition-all" href="#presupuesto">
+            Pedir cita para esta oferta
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 9. GALERÍA DE INSTALACIONES Y TRABAJOS ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="max-w-2xl space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Nuestras instalaciones en el Actur</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+          Tecnología moderna, solvencia de siempre
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Un taller ordenado, con elevadores hidráulicos de alta capacidad, cabina presurizada y estaciones de diagnosis conectadas.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Gallery 1 -->
+<div class="group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3] bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern clean car repair workshop in Zaragoza with hydraulic car lifts and organized professional tools on red mechanical chests, illuminated by bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo2pT7i-AydTcEIXJqkjLOAD-L1kYvjt2ZTiyWTvYBPgcwnV27mL1gOpUlj6INLc9qqiB4jUfQTutwJqYeDCBbsz3WDxAp9NcpjQ9g91Rnvml2QogGml-pDY75CcOi2EpmMo2juM7koVkgrONTHpJYjNqS4CSGh9Qr8HxMOPQFTFHip3MfPzESaf789JVLo074AaXkYe8Pv3Vn0wN3cIVdv6AkzwpvUPqkcY4PnA0">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<span class="text-surface font-label-md text-label-md">Boxes mecánicos y elevadores</span>
+<p class="text-tertiary-fixed text-body-sm">Equipamiento Weber para turismos y furgonetas</p>
+</div>
+</div>
+<!-- Gallery 2 -->
+<div class="group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3] bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of a mechanic technician holding a digital diagnostic tablet computer connected to an engine bay of an SUV car in a modern Spanish workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASqDj-9oOSrs7tQ1cX1JFaSfseZ1LUa63X4zxv-2Bg0BuOumnfk-NVY6LCHt1XSdPwd8tOMPDKDnXnuXpNyRdKwVDjaH2WCPASWtmLzVhRzUpFDQ3pdhjTJTxQ9nrZMMOanmBjmsW8YYMv58btseBKlUE6dIV5bH1zZDdo8opuViGnGP5k6KcKZhAXEsXG1xOoYpxzAdHSDVzcx7CP5QgmBWUb46zL-tv2XdV2Qyk">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<span class="text-surface font-label-md text-label-md">Diagnosis electrónica de última generación</span>
+<p class="text-tertiary-fixed text-body-sm">Detección precisa de fallos de inyección y sensores</p>
+</div>
+</div>
+<!-- Gallery 3 -->
+<div class="group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3] bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Classic vintage offroad 4x4 vehicle undergoing precise mechanical restoration and suspension overhaul inside a clean Spanish auto garage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASt7zvvf5GD5SRvsV9Zz3K1zt8X1FpScKbJOC2HvLnjk8ISIOq0z5Ax33ut6uqrjLvE7b5_XuDPU3EJONNLvLUOl0Y_5jtSv2C2QGWCHJ7Ld1BUXG4GG2sA95SFo-EZxR9xdfnY9dh_-BwALsYHxzT4SiqpACIm5w-5FW750XXmom_PDTRxJLRQ_Ai757YiT7_aJfPoAQ8iVMVNWmCWGcv9RYBDlvzT6yHowGNz8Y">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4">
+<span class="text-surface font-label-md text-label-md">Área 4x4 y vehículos clásicos</span>
+<p class="text-tertiary-fixed text-body-sm">Puesta a punto de diferenciales y suspensiones</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 10. PREGUNTAS FRECUENTES ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface-container-low">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="text-center max-w-2xl mx-auto space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Dudas resueltas</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+          Preguntas frecuentes
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Respondemos con total franqueza a las preguntas más habituales sobre nuestro taller en Zaragoza.
+        </p>
+</div>
+<div class="max-w-3xl mx-auto space-y-space-xs">
+<!-- Accordion 1 -->
+<details class="group bg-surface-container-lowest p-space-md rounded-xl shadow-sm [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer font-headline-sm text-headline-sm text-on-surface select-none">
+<span>¿Dan presupuesto antes de realizar cualquier reparación?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Sí, siempre. Es nuestra política inquebrantable desde hace más de 30 años. Revisamos el vehículo y te facilitamos una valoración cerrada y por escrito. Nunca realizamos ninguna intervención complementaria sin que nos des tu autorización previa por teléfono o en persona.
+          </div>
+</details>
+<!-- Accordion 2 -->
+<details class="group bg-surface-container-lowest p-space-md rounded-xl shadow-sm [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer font-headline-sm text-headline-sm text-on-surface select-none">
+<span>¿Hacen la revisión pre-ITV y gestionan la inspección por mí?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Efectivamente. Verificamos más de 40 puntos críticos idénticos a los de la línea de inspección (luces, gases, frenada, rótulas de suspensión y amortiguadores). Además, disponemos del servicio de llevar nosotros mismos tu coche a la estación ITV de Zaragoza para que no pierdas tu tiempo.
+          </div>
+</details>
+<!-- Accordion 3 -->
+<details class="group bg-surface-container-lowest p-space-md rounded-xl shadow-sm [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer font-headline-sm text-headline-sm text-on-surface select-none">
+<span>¿Trabajan con cualquier marca de coche?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Sí, somos taller multimarca integral. Contamos con equipos de diagnosis informatizada multimarca actualizados compatibles con turismos, vehículos comerciales ligeros, todoterrenos y monovolúmenes de marcas europeas, asiáticas y americanas.
+          </div>
+</details>
+<!-- Accordion 4 -->
+<details class="group bg-surface-container-lowest p-space-md rounded-xl shadow-sm [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer font-headline-sm text-headline-sm text-on-surface select-none">
+<span>¿Reparan vehículos 4x4 y coches clásicos?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Totalmente. Es uno de nuestros sellos distintivos más reconocidos en Aragón. Tenemos experiencia específica en cajas de transferencia, grupos diferenciales, suspensiones elevadas y carburación o encendido para coches clásicos.
+          </div>
+</details>
+<!-- Accordion 5 -->
+<details class="group bg-surface-container-lowest p-space-md rounded-xl shadow-sm [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer font-headline-sm text-headline-sm text-on-surface select-none">
+<span>¿Hacen también chapa y pintura?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Sí. Disponemos de cabina de pintura al horno propia y bancada de estiramiento. Reparamos desde pequeños arañazos y roces de aparcamiento hasta siniestros de mayor consideración con pintura secada a temperatura controlada.
+          </div>
+</details>
+<!-- Accordion 6 -->
+<details class="group bg-surface-container-lowest p-space-md rounded-xl shadow-sm [&amp;_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between cursor-pointer font-headline-sm text-headline-sm text-on-surface select-none">
+<span>¿Necesito pedir cita previa?</span>
+<span class="material-symbols-outlined text-primary group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="pt-space-sm font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Para intervenciones programadas (como mantenimientos periódicos, distribución o pre-ITV) aconsejamos llamar al <a class="text-primary font-bold" href="tel:976512852">976 51 28 52</a> para asignarte un box y entregarte el vehículo el mismo día. Si se trata de una urgencia, puedes acercarte directamente al taller en C. Juan Blas de Ubide, 5.
+          </div>
+</details>
+</div>
+</div>
+</section>
+<!-- ================= 11. CÓMO LLEGAR Y CONTACTO ================= -->
+<section class="w-full py-space-xl md:py-24 bg-surface" id="contacto">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin space-y-space-xl">
+<div class="max-w-2xl space-y-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Dónde encontrarnos</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">
+          Tu taller mecánico en el Actur (Zaragoza)
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Excelente acceso desde la Z-30 y Z-40, fácil estacionamiento en la zona y paradas de tranvía muy próximas.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- Left: Static Map API Container -->
+<div class="lg:col-span-7 rounded-xl overflow-hidden shadow-md min-h-[350px] relative bg-surface-container">
+<div class="w-full h-full min-h-[380px] bg-cover bg-center" data-location="Calle Juan Blas de Ubide, 5, 50015 Zaragoza" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBSL9LQIDJY6R90wCnkN4Z_Og_6l5cHFVep13dn5eW-g2UiI9KAQvtbXbRWPkkVs6cHTra_Jw08gB8iDN52E1CgYCaFwT6hoCkhKlSSEEpreRiZFnVJu8QFYI6rWOwoMg2t1oRhJAXd7ARXaTJVWIVstSiVeUKu2l4Ld4ZnWUmSTk9XntmjVzNKW1w4nofDrnC7N8S2tofQcBqRqVTGzUlqTQIZPVsa_jDh4yrSWO8&quot;);"></div>
+</div>
+<!-- Right: Address & Direct Info Card -->
+<div class="lg:col-span-5 p-space-lg md:p-space-xl rounded-xl bg-surface-container-lowest shadow-md flex flex-col justify-between space-y-space-md">
+<div class="space-y-space-md">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Talleres Samuel</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Taller mecánico y carrocería en Zaragoza</p>
+</div>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">location_on</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Dirección</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Calle Juan Blas de Ubide, 5<br>50015 Zaragoza (Barrio Actur - Rey Fernando)
+                  </p>
+</div>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">phone_in_talk</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Teléfono de atención</span>
+<a class="font-headline-sm text-headline-sm text-primary font-bold hover:underline" href="tel:976512852">
+                    976 51 28 52
+                  </a>
+</div>
+</div>
+<div class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">schedule</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Horario de Taller</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Lunes a Viernes: 9:00 - 13:00 y 16:00 - 20:00<br>Sábados y Domingos: Cerrado
+                  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-space-xs space-y-2">
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 bg-inverse-surface text-inverse-on-surface font-label-md text-label-md rounded-xl hover:bg-black transition-all" href="https://maps.google.com/?q=C.+Juan+Blas+de+Ubide+5,+Zaragoza" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">near_me</span>
+              Cómo llegar en Google Maps
+            </a>
+<a class="w-full inline-flex items-center justify-center gap-2 py-3 bg-primary text-on-primary font-label-md text-label-md rounded-xl hover:bg-primary-container transition-all" href="tel:976512852">
+<span class="material-symbols-outlined text-[18px]">call</span>
+              Llamar al taller (976 51 28 52)
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= 12. LLAMADA A LA ACCIÓN FINAL ================= -->
+<section class="w-full bg-primary text-on-primary py-space-xl md:py-20 shadow-inner">
+<div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin text-center space-y-space-md">
+<div class="max-w-2xl mx-auto space-y-space-xs">
+<h2 class="font-display text-headline-lg-mobile md:text-headline-lg text-on-primary leading-tight">
+          ¿Problemas con tu coche? Llámanos ahora al 976 51 28 52
+        </h2>
+<p class="font-body-lg text-body-lg text-on-primary/90">
+          Te atendemos de inmediato y te damos presupuesto sin compromiso en nuestro taller en el Actur, Zaragoza.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md pt-space-xs">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-space-lg py-4 bg-surface-container-lowest text-on-surface rounded-xl font-headline-sm text-headline-sm shadow-md hover:bg-surface-container transition-all" href="tel:976512852">
+<span class="material-symbols-outlined text-primary text-[24px]">phone_in_talk</span>
+          Llamar al 976 51 28 52
+        </a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-space-lg py-4 bg-primary-container text-on-primary rounded-xl font-headline-sm text-headline-sm hover:opacity-95 transition-all" href="#presupuesto">
+<span class="material-symbols-outlined text-[24px]">assignment</span>
+          Pedir presupuesto por web
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function showFormSuccess() {
+    const feedback = document.getElementById('formFeedback');
+    if (feedback) {
+      feedback.classList.remove('hidden');
+      feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+</script></main><div class="fixed md:hidden bottom-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-xl px-space-sm py-space-xs shadow-[0_-4px_16px_rgba(0,0,0,0.08)] flex items-center gap-space-xs"><a class="flex-1 inline-flex items-center justify-center h-12 bg-secondary text-on-secondary rounded-xl font-label-md text-label-md shadow-sm" href="tel:976512852"><span class="material-symbols-outlined mr-1 text-[20px]">call</span>Llamar ahora</a><a class="flex-1 inline-flex items-center justify-center h-12 bg-inverse-surface text-inverse-on-surface rounded-xl font-label-md text-label-md shadow-sm" href="https://maps.google.com/?q=C.+Juan+Blas+de+Ubide+5,+Zaragoza" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined mr-1 text-[20px]">near_me</span>Cómo llegar</a></div><footer class="w-full bg-surface-container-low text-on-surface"><div class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl"><div class="space-y-space-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Talleres Samuel</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Taller mecánico integral de confianza en Zaragoza. Más de 30 años garantizando la seguridad y rendimiento de tu vehículo en el Actur.</p><div class="pt-space-xs"><span class="inline-flex items-center gap-1 text-label-sm font-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[16px]">verified</span>Chapa, Pintura, Diagnosis y Pre-ITV</span></div></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Ubicación</h3><p class="font-body-sm text-body-sm text-on-surface-variant flex items-start gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px] shrink-0">location_on</span><span>C. Juan Blas de Ubide, 5<br>50018 Zaragoza (Actur)</span></p><a class="inline-flex items-center text-label-md font-label-md text-primary hover:text-primary-container transition-colors" href="https://maps.google.com/?q=C.+Juan+Blas+de+Ubide+5,+Zaragoza" rel="noopener noreferrer" target="_blank">Ver en Google Maps</a></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Atención y Horario</h3><p class="font-body-sm text-body-sm text-on-surface-variant flex items-start gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px] shrink-0">schedule</span><span>Lunes a Viernes:<br>9:00 - 13:00 / 16:00 - 20:00<br>Sábados y Domingos: Cerrado</span></p><p class="font-body-sm text-body-sm text-on-surface flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px] shrink-0">phone_in_talk</span><a class="font-label-lg text-label-lg text-primary font-bold" href="tel:976512852">976 51 28 52</a></p></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Enlaces de Interés</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" href="#servicios">Mecánica Rápida y General</a></li><li><a class="hover:text-on-surface transition-colors" href="#servicios">Chapa y Pintura</a></li><li><a class="hover:text-on-surface transition-colors" href="#servicios">Revisión Oficial Pre-ITV</a></li><li><a class="hover:text-on-surface transition-colors" href="#presupuesto">Solicitar Presupuesto Online</a></li><li><a class="hover:text-on-surface transition-colors" href="#contacto">Contacto y Cita Previa</a></li></ul></div></div><div class="mt-space-xl pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><p>© 2024 Talleres Samuel S.L. Todos los derechos reservados.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" data-path="aviso-legal" href="#">Aviso Legal</a><a class="hover:text-on-surface transition-colors" data-path="politica-de-privacidad" href="#">Política de Privacidad</a><a class="hover:text-on-surface transition-colors" data-path="politica-de-cookies" href="#">Política de Cookies</a></div></div></div></footer>
+
+
+
+</body></html>
